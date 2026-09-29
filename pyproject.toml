@@ -1,0 +1,15 @@
+[project]
+name = "tv-bot"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ssghost", email = "ssprof0@gmail.com"},
+]
+dependencies = ["fastapi>=0.141.1", "uvicorn>=0.53.0", "playwright>=1.62.0", "file:///${PROJECT_ROOT}/greenlet-3.5.6-cp311-cp311-macosx_11_0_universal2.whl"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
