@@ -1,7 +1,7 @@
 import asyncio
 from fastapi import FastAPI, Request
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
-from logger import record_alert
+from tools.logger import record_alert
 
 app = FastAPI()
 
