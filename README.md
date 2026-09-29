@@ -1,5 +1,5 @@
 # TV Bot
 
-TradingView Automatic Order Perform and Webhook Transmit. (For Private Use)
+TradingView automatic order performer and Webhook transmitter. (For private use)
 
 
