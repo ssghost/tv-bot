@@ -1,5 +1,10 @@
 #!/bin/bash
 set -e
+if [ ! -t 0 ]; then
+    echo "You must open an interactive terminal for logging into TV account."
+    echo "  docker run -it -p 8088:8088 -p 9222:9222 "
+    exit 1
+fi
 
 echo "[1/4] Install dependencies."
 if [ -f requirements.txt ]; then
